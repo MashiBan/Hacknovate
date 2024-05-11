@@ -4,15 +4,21 @@ Amid global mental health stigma, millions suffer in silence. Fear hinders acces
 # Proposed Solution
 ## We created a 3D platform that combines therapeutic support with a story-like experience offering an innovative way to address mental health needs.
 Sentiment Analysis for Early Detection
+
 Therapeutic Chat Style: Use counseling-like techniques for empathetic and supportive conversations
+
 User Interface: Create a user-friendly interface for interaction.
+
 Guardian Notification: Develop a system to alert guardians about significant changes in sentiment.
+
 Privacy and Security: Ensure compliance with data privacy regulations and implement encryption.
+
 Feedback Mechanism: Include a feedback system to continuously improve user experience.
 
 
 # What were we able to achive
 Therapeutic Chat Style: Use counseling-like techniques for empathetic and supportive conversations
+
 User Interface: Create a user-friendly interface for interaction.
 
 # Checkout projects-
