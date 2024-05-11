@@ -140,7 +140,7 @@ function animateParticles() {
 /**
  * Glowing Yellow Particles
  */
-const particleCount = 100;
+const particleCount = 200;
 const particles = new THREE.Group();
 
 const particleGeometry = new THREE.SphereGeometry(0.02, 8, 8);
@@ -170,7 +170,7 @@ gltfLoader.load(
     '/models/sad_sad/scene.gltf',
     (gltf) =>
     {
-        gltf.scene.scale.set(2.5, 2.5, 2.5)
+        gltf.scene.scale.set(3, 3, 3)
         gltf.scene.rotation.y = Math.PI * 2 - 0.8
         gltf.scene.position.y = -Math.sin(Date.now() * 0.01 + gltf.scene.position.y * 10);
         scene.add(gltf.scene)
@@ -191,6 +191,10 @@ const points = [
         position: new THREE.Vector3(1, 0.3,  0.6),
         element: document.querySelector('.point-0')
     },
+    {
+        position: new THREE.Vector3(-0.9, 0.4, -1),
+        element: document.querySelector('.point-1')
+    }
 ]
 
 /**
@@ -226,6 +230,8 @@ window.addEventListener('resize', () =>
     renderer.setSize(sizes.width, sizes.height)
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 })
+
+
 
 /**
  * Camera

@@ -98,6 +98,7 @@ body
 }
 
 
+
 .navbar {
     /* background-color: #000000; Background color of the navbar */
     padding: 10px 20px; /* Padding around navbar items */
@@ -118,4 +119,12 @@ body
 
 .nav-item:hover {
     color: yellow; /* Text color of navbar items on hover */
+}
+
+button{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    width: 4rem;
+    height: 4rem;
 }
